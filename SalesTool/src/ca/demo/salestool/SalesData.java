@@ -4,7 +4,9 @@ public class SalesData {
 	int data[] = { 0, 4, 42 };
 
 	public void display() {
-		System.out.println("TO DO: Implement Data Display");
+		for (int i = 0; i < data.length; i++) {
+			System.out.println("");
+		}
 	}
 
 }
